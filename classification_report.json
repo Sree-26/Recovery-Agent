@@ -1,0 +1,51 @@
+{
+  "bank_gateway_timeout": {
+    "precision": 0.7975206611570248,
+    "recall": 0.8894009216589862,
+    "f1-score": 0.840958605664488,
+    "support": 217.0
+  },
+  "card_expired_invalid": {
+    "precision": 0.9606741573033708,
+    "recall": 0.8507462686567164,
+    "f1-score": 0.9023746701846965,
+    "support": 201.0
+  },
+  "insufficient_funds": {
+    "precision": 0.8551020408163266,
+    "recall": 0.9128540305010894,
+    "f1-score": 0.8830347734457323,
+    "support": 459.0
+  },
+  "issuer_declined_generic": {
+    "precision": 0.7718120805369127,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.7705192629815746,
+    "support": 299.0
+  },
+  "network_technical_error": {
+    "precision": 0.8536585365853658,
+    "recall": 0.7407407407407407,
+    "f1-score": 0.7932011331444759,
+    "support": 189.0
+  },
+  "risk_fraud_hold": {
+    "precision": 0.9453125,
+    "recall": 0.8962962962962963,
+    "f1-score": 0.9201520912547528,
+    "support": 135.0
+  },
+  "accuracy": 0.8493333333333334,
+  "macro avg": {
+    "precision": 0.8640133293998334,
+    "recall": 0.8432115045140997,
+    "f1-score": 0.85170675611262,
+    "support": 1500.0
+  },
+  "weighted avg": {
+    "precision": 0.8522531925459444,
+    "recall": 0.8493333333333334,
+    "f1-score": 0.8491327288420649,
+    "support": 1500.0
+  }
+}

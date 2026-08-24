@@ -1,0 +1,36 @@
+{
+  "total_transactions": 1500,
+  "total_amount_at_risk": 2427424.4,
+  "smart_agent": {
+    "amount_recovered": 811775.31,
+    "recovery_rate_pct": 33.44,
+    "txns_recovered": 505,
+    "txns_escalated_manual": 128,
+    "txns_flagged_review": 137
+  },
+  "naive_baseline": {
+    "amount_recovered": 476292.14,
+    "recovery_rate_pct": 19.62,
+    "txns_recovered": 338
+  },
+  "uplift": {
+    "extra_amount_recovered": 335483.17,
+    "relative_uplift_pct": 70.44
+  },
+  "per_root_cause_recovery_rate_smart": {
+    "bank_gateway_timeout": 0.562,
+    "card_expired_invalid": 0.229,
+    "insufficient_funds": 0.355,
+    "issuer_declined_generic": 0.127,
+    "network_technical_error": 0.582,
+    "risk_fraud_hold": 0.193
+  },
+  "per_root_cause_recovery_rate_baseline": {
+    "bank_gateway_timeout": 0.525,
+    "card_expired_invalid": 0.06,
+    "insufficient_funds": 0.092,
+    "issuer_declined_generic": 0.197,
+    "network_technical_error": 0.566,
+    "risk_fraud_hold": 0.03
+  }
+}
